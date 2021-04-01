@@ -10,8 +10,6 @@ class WSConsumer(WebsocketConsumer):
         self.accept()
 
         for i in range(10, -1, -1):
-            # self.send(json.dumps({'message': '33'}))
-            # self.send(json.dumps({'message': 'HelloWorld22222222'}))
             self.send(json.dumps({'message': i}))
             sleep(1)
         self.close()
