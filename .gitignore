@@ -1,0 +1,6 @@
+.idea/
+venv/
+migrations/
+__pycache__/
+db.sqlite3
+realtime_project/local_settings.py
